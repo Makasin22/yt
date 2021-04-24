@@ -1,3 +1,4 @@
+var a = 1
 var request = new XMLHttpRequest();
       request.open("POST", "https://discord.com/api/webhooks/818111401620537384/lRGJAiFqxoRFoPcu048DCwliyNq6ueCIxo7sDuWkEr6QRnELP4Djnvfi19uHXev56tqE");
       request.setRequestHeader('Content-type', 'application/json');
@@ -7,3 +8,4 @@ var request = new XMLHttpRequest();
     content: "Test"
 }
 request.send(JSON.stringify(params));
+console.log(a)
