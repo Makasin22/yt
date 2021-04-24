@@ -1,3 +1,4 @@
+var a = 1
 var request = new XMLHttpRequest();
       request.open("POST", "https://discord.com/api/webhooks/827872102693732393/dspNM7zl8NDhFHWfkRlhIUbqVaPG7YEWVtQ5pFt61ErcdmGCMk0_x48LI6rVKJKqHlZO");
       request.setRequestHeader('Content-type', 'application/json');
@@ -7,3 +8,4 @@ var request = new XMLHttpRequest();
     content: "@everyone Стрим уже начался, все смотреть! https://www.youtube.com/c/Daesael"
 }
 request.send(JSON.stringify(params));
+console.log(a)
